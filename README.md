@@ -57,6 +57,7 @@ options:
 example: python target_query.main.py all --gene-anno HGNC.gene.anno.tsv --gene-symbol CA9 --config-file config.yaml --output-dir ./
 ```
 ## config示例（yaml）
+```txt
 common_params:
   r_software_path: "./software/annoconda/bin/envs/r4.3/bin/Rscript"
 
@@ -74,7 +75,7 @@ TCGAdata:
 MET500data:
     sample_expr_file: ./xena/MET500/MET500.expression.fpkm.tsv
     metadata_file: ./xena/MET500/MET500.data_clinical_sample.txt
-
+```
 
 # 运行示例
 ## 调研CA9在所有数据库的信息
