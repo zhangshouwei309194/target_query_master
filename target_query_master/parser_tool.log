@@ -1,10 +1,1 @@
-2025-11-05 02:54:56,163 - ERROR - 程序执行错误: type object 'ParserManager' has no attribute 'DEFAULT_R_SCRIPT_PATH'
-Traceback (most recent call last):
-  File "/home/ec2-user/project/RDC_target/target_query_first_steps/target_query_master/target_query.main.v1.1.py", line 825, in main
-    parser = setup_argparse()
-  File "/home/ec2-user/project/RDC_target/target_query_first_steps/target_query_master/target_query.main.v1.1.py", line 363, in setup_argparse
-    all_parser = add_common_arguments(all_parser)
-  File "/home/ec2-user/project/RDC_target/target_query_first_steps/target_query_master/target_query.main.v1.1.py", line 357, in add_common_arguments
-    help=f'Rscript可执行文件路径（默认: {ParserManager.DEFAULT_R_SCRIPT_PATH}）',
-                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: type object 'ParserManager' has no attribute 'DEFAULT_R_SCRIPT_PATH'. Did you mean: 'DEFAULT_R_SOFTWARE_PATH'?
+
