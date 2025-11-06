@@ -63,22 +63,23 @@ example: python target_query.main.py all --gene-anno HGNC.gene.anno.tsv --gene-s
 ## config示例（yaml）
 ```txt
 common_params:
-  r_software_path: "./software/annoconda/bin/envs/r4.3/bin/Rscript"
+    r_software_path: "Rscript"
 
 GTExdata:
-    sample_expr_file: ./GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.gct
-    tissue_expr_file: ./GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.tau.bytissue.gct
-    metadata_file: ./GTEx/V10/Metadata/GTEx_Analysis_v10_Annotations_SampleAttributesDS.txt
+    sample_expr_file: ./v1.0/GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.gct
+    tissue_expr_file: ./v1.0/GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.tau.bytissue.gct
+    metadata_file: ./v1.0/GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.gct
 DepMapdata:
-    sample_expr_file: ./DepMap/25Q2/Expression/OmicsExpressionProteinCodingGenesTPMLogp1.csv
-    metadata_file: ./DepMap/25Q2/Model_Condition_Mapping/Model.csv
+    sample_expr_file: ./v1.0/DepMap/25Q2/Expression/OmicsExpressionProteinCodingGenesTPMLogp1.csv
+    metadata_file: ./v1.0/DepMap/25Q2/Model_Condition_Mapping/Model.csv
 TCGAdata:
-    sample_expr_file: ./xena/tcga_RSEM_gene_tpm.reverselog.tsv
-    metadata_file: ./xena/all_clinial/TCGA.allcancer.sample_type.tsv
-    clinical_file: ./TCGA/cancer_samples_data.json
+    sample_expr_file: ./v1.0/TCGA/Expression/tcga_RSEM_gene_tpm.reverselog.tsv
+    metadata_file: ./v1.0/TCGA/Metadata/TCGA.allcancer.sample_type.tsv
+    clinical_file: ./v1.0/TCGA/Metadata/cancer_samples_data.json
 MET500data:
-    sample_expr_file: ./xena/MET500/MET500.expression.fpkm.tsv
-    metadata_file: ./xena/MET500/MET500.data_clinical_sample.txt
+    sample_expr_file: ./v1.0/MET500/Expression/MET500.expression.fpkm.tsv
+    metadata_file: ./v1.0/MET500/Metadata/MET500.data_clinical_sample.txt
+
 ```
 
 # 版本信息
