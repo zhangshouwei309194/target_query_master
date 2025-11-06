@@ -1,17 +1,17 @@
 common_params:
-  r_software_path: "/home/ec2-user/software/annoconda/bin/envs/r4.3/bin/Rscript"
+  r_software_path: "./annoconda/bin/envs/r4.3/bin/Rscript"
 
 GTExdata:
-    sample_expr_file: /home/ec2-user/database/GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.gct
-    tissue_expr_file: /home/ec2-user/database/GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.tau.bytissue.gct
-    metadata_file: /home/ec2-user/database/GTEx/V10/Metadata/GTEx_Analysis_v10_Annotations_SampleAttributesDS.txt
+    sample_expr_file: ./GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.gct
+    tissue_expr_file: ./GTEx/V10/Bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.tau.bytissue.gct
+    metadata_file: ./GTEx/V10/Metadata/GTEx_Analysis_v10_Annotations_SampleAttributesDS.txt
 DepMapdata:
-    sample_expr_file: /home/ec2-user/database/DepMap/25Q2/Expression/OmicsExpressionProteinCodingGenesTPMLogp1.csv
-    metadata_file: /home/ec2-user/database/DepMap/25Q2/Model_Condition_Mapping/Model.csv
+    sample_expr_file: ./DepMap/25Q2/Expression/OmicsExpressionProteinCodingGenesTPMLogp1.csv
+    metadata_file: ./DepMap/25Q2/Model_Condition_Mapping/Model.csv
 TCGAdata:
-    sample_expr_file: /home/ec2-user/database/xena/tcga_RSEM_gene_tpm.reverselog.tsv
-    metadata_file: /home/ec2-user/database/xena/all_clinial/TCGA.allcancer.sample_type.tsv
-    clinical_file: /home/ec2-user/project/RDC_target/target_query_first_steps/TCGA/cancer_samples_data.json
+    sample_expr_file: tcga_RSEM_gene_tpm.reverselog.tsv
+    metadata_file: TCGA.allcancer.sample_type.tsv
+    clinical_file: cancer_samples_data.json
 MET500data:
-    sample_expr_file: /home/ec2-user/database/xena/MET500/MET500.expression.fpkm.tsv
-    metadata_file: /home/ec2-user/database/xena/MET500/MET500.data_clinical_sample.txt
+    sample_expr_file: MET500.expression.fpkm.tsv
+    metadata_file: MET500.data_clinical_sample.txt
