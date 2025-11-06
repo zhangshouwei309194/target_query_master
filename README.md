@@ -34,6 +34,10 @@ ggplot2
 ggpmisc  
 ggpubr  
 ```
+**需要安装DeepTMHMM:A Deep Learning Model for Transmembrane Topology Prediction and Classification，并配置到环境变量**
+
+DeepTMHMM软件安装可参考https://dtu.biolib.com/DeepTMHMM/
+
 
 # 使用说明
 ```bash
